@@ -1,0 +1,34 @@
+############################
+# Backend (Spring Boot)
+############################
+backend/target/
+backend/*.log
+
+############################
+# Frontend (React)
+############################
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+############################
+# Common (Env & Secrets)
+############################
+.env
+*.env
+db-config.properties
+
+############################
+# IDE Files
+############################
+.metadata/
+.settings/
+.idea/
+.vscode/
+bin/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
